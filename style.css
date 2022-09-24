@@ -1,0 +1,117 @@
+/* .container{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+ul{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+    justify-content: space-around;
+}
+form{
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+li{
+    width: 40%;
+    margin: 0 auto;
+     border: 1px solid;
+     padding: 100px;
+     border-radius: 17px;
+     list-style: none;
+     box-shadow: 1px 2px 2px 1px;
+}
+input{
+    width: 40%;
+    background-color: greenyellow;
+    outline: none;
+    border-bottom-color: green;
+    border-radius: 15px;
+    height: 50px;
+    color: rgb(255, 255, 255);
+    font-size: 26px;
+}
+button{
+   border: none;
+    
+   background-color: white;
+    font-size: 20px;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+img{
+    width: 300px;
+    height: 200px;
+    border: 1px solid;
+    
+}
+img:active{
+    opacity: 0.5;
+}
+.button2{
+    background-color: green;
+    width: 200px;
+    height:50px;
+} */
+body {
+    background-image: url(./image/f4f02_TravelResearch_Banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+    outline: none;
+}
+
+.btn {
+    height: 55px;
+    border: 1px solid green;
+    background-color: aquamarine;
+    color: rgb(36, 64, 9);
+    font-size: 19px;
+    font-style: italic;
+    width: 100px;
+    font-weight: bold;
+}
+
+#value {
+    height: 50px;
+    border: 2px solid blue;
+    font-size: 20px;
+    outline: none;
+    font-style: italic;
+}
+
+.div {
+    text-align: center;
+}
+
+#ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+li {
+    list-style: none;
+    text-align: center;
+    background-color: rgb(202, 187, 187);
+    border-radius: 15px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+img {
+    width: 300px;
+    height: 200px;
+    background-color: transparent;
+}
